@@ -9,4 +9,4 @@ ENV TERM dumb
 # Run app.py when the container launches
 CMD wget https://packages.couchbase.com/releases/5.5.0/couchbase-server-enterprise-5.5.0-centos7.x86_64.rpm
 CMD sudo rpm --install couchbase-server-enterprise-5.5.0-centos7.x86_64.rpm
-CMD top
+CMD python a.py
