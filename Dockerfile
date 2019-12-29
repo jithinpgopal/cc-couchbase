@@ -9,8 +9,8 @@ ENV TERM dumb
 WORKDIR /app
 
 # Run app.py when the container launches
-RUN sudo yum install erlang-erts
-RUN sudo yum install file
+# RUN sudo yum install erlang-erts
+# RUN sudo yum install file
 
 COPY . /app
 
